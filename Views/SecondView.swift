@@ -20,10 +20,19 @@ struct SecondView: View{
                         .frame(width: geometry.size.width, height: geometry.size.height / 2)
                         .clipped()
                         .opacity(0.9)
-                    Text("Top Half Text")
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                        .bold()
+                    VStack{
+                        Spacer().frame(height:0)
+                        Text("BBVA")
+                            .foregroundColor(.white)
+                            .font(.custom("Helvetica Neue", size: 20))
+                            .bold()
+                            .padding(.bottom, 30)
+                        Spacer().frame(height:10)
+                        Image("rc_user1")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                    }
                 }
                 .frame(width: geometry.size.width, height: geometry.size.height / 2)
                 // Bottom half with white background
