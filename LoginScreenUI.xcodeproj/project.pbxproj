@@ -17,6 +17,8 @@
 		630707042C3B4EEC0011980B /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630707032C3B4EEC0011980B /* CustomColors.swift */; };
 		630707062C3B65AC0011980B /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630707052C3B65AC0011980B /* FirstView.swift */; };
 		630707082C3B669F0011980B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630707072C3B669F0011980B /* SecondView.swift */; };
+		635B35EF2C40B25900C7F060 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635B35EE2C40B25900C7F060 /* ThirdView.swift */; };
+		635B35F12C40C5D000C7F060 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635B35F02C40C5D000C7F060 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		630707032C3B4EEC0011980B /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		630707052C3B65AC0011980B /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		630707072C3B669F0011980B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		635B35EE2C40B25900C7F060 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		635B35F02C40C5D000C7F060 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 			children = (
 				630707072C3B669F0011980B /* SecondView.swift */,
 				630707052C3B65AC0011980B /* FirstView.swift */,
+				635B35EE2C40B25900C7F060 /* ThirdView.swift */,
+				635B35F02C40C5D000C7F060 /* HomeScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,8 +282,10 @@
 			files = (
 				630706DC2C3B4AE10011980B /* ContentView.swift in Sources */,
 				630707082C3B669F0011980B /* SecondView.swift in Sources */,
+				635B35F12C40C5D000C7F060 /* HomeScreen.swift in Sources */,
 				630707062C3B65AC0011980B /* FirstView.swift in Sources */,
 				630707042C3B4EEC0011980B /* CustomColors.swift in Sources */,
+				635B35EF2C40B25900C7F060 /* ThirdView.swift in Sources */,
 				630706DA2C3B4AE10011980B /* LoginScreenUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LoginScreenUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use this to unlock the phone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +481,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LoginScreenUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use this to unlock the phone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
