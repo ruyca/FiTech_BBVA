@@ -86,7 +86,7 @@ struct SecondView: View{
                     .frame(width: geometry.size.width, height: geometry.size.height / 2)
                     // Bottom half with white background
                     ZStack{
-                        Color.black
+                        CustomColors.myGreyBackground
                             .frame(width: geometry.size.width, height: geometry.size.height / 2)
                         Image("bottom-image")
                             .resizable()
@@ -95,7 +95,7 @@ struct SecondView: View{
                             .clipped()
                     }
                     .frame(width: geometry.size.width, height: geometry.size.height / 2)
-                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    Color.white
                 }
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             }
