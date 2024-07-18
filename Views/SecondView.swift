@@ -97,7 +97,7 @@ struct SecondView: View{
                     .frame(width: geometry.size.width, height: geometry.size.height / 2)
                     Color.white
                 }
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .edgesIgnoringSafeArea(.all)
             }
             
         }

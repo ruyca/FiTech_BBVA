@@ -86,16 +86,67 @@ struct HomeScreen: View {
                             }
                             .padding()
                             
+                            /// RECTANGLES AND STUFF
+                            
                             VStack(spacing: 20) {
-                                Rectangle()
-                                    .fill(Color.white)
-                                    .frame(width: geo.size.width - 50, height: 100)
-                                    .shadow(radius: 5)
-                                Text("hola")
-                                Rectangle()
-                                    .fill(Color.white)
-                                    .frame(width: geo.size.width - 50, height: 200)
-                                    .shadow(radius: 5)
+                            /// FIRST RECTANGLE
+                                ZStack{
+                                    Rectangle()
+                                        .fill(Color.white)
+                                        .frame(width: geo.size.width - 50, height: 100)
+                                        .shadow(radius: 5)
+                                    
+                                    VStack(alignment:.leading){
+                                        Text("CUENTAS EN PESOS")
+                                            .bold()
+                                            .font(.custom("Helvetica Neue", size: 15))
+                                            .foregroundColor(.gray)
+                                            .padding(.top, -5)
+                                        //Spacer()
+                                        Divider()
+                                            .foregroundColor(.gray)
+                                            .frame(width: geo.size.width - 80)
+                                        
+                                        NavigationLink(destination: CuentaView()){
+                                            HStack(spacing:160){
+                                                Text("000ABCD1382")
+                                                    .font(.custom("Helvetica Neue", size:15))
+                                                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                                                    .bold()
+                                                Text("$7,850")
+                                                    .font(.custom("Helvetica Neue", size:15))
+                                                    .foregroundColor(.black)
+                                            }
+                                        }
+                                        
+                                        NavigationLink(destination: CuentaView()){
+                                            HStack(spacing:190){
+                                                Text("•1382")
+                                                    .font(.custom("Helvetica Neue", size:12))
+                                                    .fontWeight(.light)
+                                                    .foregroundColor(.black)
+                                                
+                                                Text("Saldo disponible")
+                                                    .font(.custom("Helvetica Neue", size: 12))
+                                                    .fontWeight(.light)
+                                                    .foregroundColor(.gray)
+                                            }
+                                        }
+                                        
+                                        
+                                /// END OF VSTACK
+                                    }
+                                    
+                            /// END OF FIRST RECT
+                                }
+                                
+                            /// SECOND RECTANGLE
+                                ZStack{
+                                    Rectangle()
+                                        .fill(Color.white)
+                                        .frame(width: geo.size.width - 50, height: 200)
+                                        .shadow(radius: 5)
+                                }
                             }
                             .padding(.top, 50) // Adjusts the VStack further down
                         }
