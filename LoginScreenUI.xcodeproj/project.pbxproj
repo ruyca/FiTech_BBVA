@@ -19,6 +19,11 @@
 		630707082C3B669F0011980B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630707072C3B669F0011980B /* SecondView.swift */; };
 		635B35EF2C40B25900C7F060 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635B35EE2C40B25900C7F060 /* ThirdView.swift */; };
 		635B35F12C40C5D000C7F060 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635B35F02C40C5D000C7F060 /* HomeScreen.swift */; };
+		63AF52B72C4C28E9006DB245 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52B62C4C28E9006DB245 /* CustomTabView.swift */; };
+		63AF52B92C4C28FE006DB245 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52B82C4C28FE006DB245 /* HealthView.swift */; };
+		63AF52BB2C4C2916006DB245 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BA2C4C2916006DB245 /* NotificationView.swift */; };
+		63AF52BD2C4C2953006DB245 /* OportunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BC2C4C2953006DB245 /* OportunitiesView.swift */; };
+		63AF52BF2C4C2961006DB245 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BE2C4C2961006DB245 /* HelpView.swift */; };
 		63CF29862C48DB4300815234 /* CuentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF29852C48DB4300815234 /* CuentaView.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +60,11 @@
 		630707072C3B669F0011980B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		635B35EE2C40B25900C7F060 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		635B35F02C40C5D000C7F060 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		63AF52B62C4C28E9006DB245 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		63AF52B82C4C28FE006DB245 /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		63AF52BA2C4C2916006DB245 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		63AF52BC2C4C2953006DB245 /* OportunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OportunitiesView.swift; sourceTree = "<group>"; };
+		63AF52BE2C4C2961006DB245 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		63CF29852C48DB4300815234 /* CuentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +154,11 @@
 		630707092C3B671F0011980B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				63AF52B62C4C28E9006DB245 /* CustomTabView.swift */,
+				63AF52B82C4C28FE006DB245 /* HealthView.swift */,
+				63AF52BA2C4C2916006DB245 /* NotificationView.swift */,
+				63AF52BC2C4C2953006DB245 /* OportunitiesView.swift */,
+				63AF52BE2C4C2961006DB245 /* HelpView.swift */,
 				630707072C3B669F0011980B /* SecondView.swift */,
 				630707052C3B65AC0011980B /* FirstView.swift */,
 				635B35EE2C40B25900C7F060 /* ThirdView.swift */,
@@ -284,12 +299,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				630706DC2C3B4AE10011980B /* ContentView.swift in Sources */,
+				63AF52BF2C4C2961006DB245 /* HelpView.swift in Sources */,
 				630707082C3B669F0011980B /* SecondView.swift in Sources */,
 				635B35F12C40C5D000C7F060 /* HomeScreen.swift in Sources */,
+				63AF52BB2C4C2916006DB245 /* NotificationView.swift in Sources */,
 				630707062C3B65AC0011980B /* FirstView.swift in Sources */,
 				630707042C3B4EEC0011980B /* CustomColors.swift in Sources */,
 				635B35EF2C40B25900C7F060 /* ThirdView.swift in Sources */,
+				63AF52B72C4C28E9006DB245 /* CustomTabView.swift in Sources */,
 				63CF29862C48DB4300815234 /* CuentaView.swift in Sources */,
+				63AF52BD2C4C2953006DB245 /* OportunitiesView.swift in Sources */,
+				63AF52B92C4C28FE006DB245 /* HealthView.swift in Sources */,
 				630706DA2C3B4AE10011980B /* LoginScreenUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
