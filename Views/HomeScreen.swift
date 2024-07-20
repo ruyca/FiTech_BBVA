@@ -108,14 +108,15 @@ struct HomeScreen: View {
                                             .frame(width: geo.size.width - 80)
                                         
                                         NavigationLink(destination: CuentaView()){
-                                            HStack(spacing:160){
+                                            HStack(spacing:135){
                                                 Text("000ABCD1382")
                                                     .font(.custom("Helvetica Neue", size:15))
                                                     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                                                     .bold()
-                                                Text("$7,850")
-                                                    .font(.custom("Helvetica Neue", size:15))
+                                                Text("$27,850")
+                                                    .font(.custom("Helvetica Neue", size:20))
                                                     .foregroundColor(.black)
+                                                    .fontWeight(.light)
                                             }
                                         }
                                         
@@ -125,6 +126,7 @@ struct HomeScreen: View {
                                                     .font(.custom("Helvetica Neue", size:12))
                                                     .fontWeight(.light)
                                                     .foregroundColor(.black)
+                                                    .italic()
                                                 
                                                 Text("Saldo disponible")
                                                     .font(.custom("Helvetica Neue", size: 12))
@@ -140,12 +142,99 @@ struct HomeScreen: View {
                             /// END OF FIRST RECT
                                 }
                                 
+                                
                             /// SECOND RECTANGLE
                                 ZStack{
                                     Rectangle()
                                         .fill(Color.white)
-                                        .frame(width: geo.size.width - 50, height: 200)
+                                        .frame(width: geo.size.width - 50, height: 310)
                                         .shadow(radius: 5)
+                                    
+                                    // FIRST CREDIT CARD
+                                    VStack(alignment: .leading){
+                                        Text("TARJETAS")
+                                            .bold()
+                                            .font(.custom("Helvetica Neue", size: 15))
+                                            .foregroundColor(.gray)
+                                            .padding(.top, -5)
+                                        Divider()
+                                            .foregroundColor(.gray)
+                                            .frame(width: geo.size.width - 80)
+                                        // "TC234"
+                                        HStack{
+                                            Text("Tc4391")
+                                                .font(.custom("Helvetica Neue", size:18))
+                                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                                                .bold()
+                                        }
+                                        
+                                        // Card image with text and money
+                                        HStack(spacing:174){
+                                            Image("bbva_azul")
+                                                .resizable()
+                                                .scaledToFill()
+                                                .frame(width:35, height:35)
+                                                .padding(.horizontal, 10)
+                                            
+                                            VStack(alignment: .trailing){
+                                                Text("$30,045")
+                                                    .font(.custom("Helvetica Neue", size:20))
+                                                    .foregroundColor(.black)
+                                                    .fontWeight(.light)
+                                                
+                                                Text("Crédito disponible")
+                                                    .font(.custom("Helvetica Neue", size: 10))
+                                                    .foregroundColor(.gray)
+                                            }
+                                        }
+                                        
+                                        HStack(spacing:211){
+                                            Text("•4391")
+                                                .font(.custom("Helvetica Neue", size:12))
+                                                .fontWeight(.light)
+                                                .foregroundColor(.black)
+                                                .italic()
+                                            
+                                            VStack(alignment: .trailing){
+                                                Text("$14,754")
+                                                    .font(.custom("Helvetica Neue", size:15))
+                                                    .foregroundColor(.black)
+                                                    .fontWeight(.light)
+                                                
+                                                Text("Saldo utilizado")
+                                                    .font(.custom("Helvetica Neue", size: 10))
+                                                    .foregroundColor(.gray)
+                                            }
+                                        }
+                                        
+                                        
+                                        /// SECOND DEBIT CARD
+                                        HStack(spacing:180){
+                                            Text("Visa Débito")
+                                                .font(.custom("Helvetica Neue", size:18))
+                                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                                                .bold()
+                                            
+                                            Image("mobile-payment")
+                                                .resizable()
+                                                .scaledToFill()
+                                                .frame(width: 15, height: 15)
+                                        }
+                                        .padding(.top, 20) // pading to HStack for the visa deb
+                                        
+                                        Image("visa_debito")
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width:35, height:35)
+                                            .padding(.horizontal, 12)
+                                        
+                                        Text("•2070")
+                                            .font(.custom("Helvetica Neue", size:12))
+                                            .fontWeight(.light)
+                                            .foregroundColor(.black)
+                                            .italic()
+                                        
+                                    }
                                 }
                             }
                             .padding(.top, 50) // Adjusts the VStack further down
@@ -155,6 +244,10 @@ struct HomeScreen: View {
             }
         }
         .navigationBarBackButtonHidden(true) // Hides the default back button
+        
+        
+        
+        
     }
 }
 
