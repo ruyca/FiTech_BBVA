@@ -43,7 +43,7 @@ struct ThirdView: View {
                     Spacer() // Add this Spacer to push content to the top
                 }
                 .navigationDestination(isPresented: $isUnlocked) {
-                    HomeScreen() // Assuming HomeScreen is declared in another file
+                    HomeScreen() 
                 }
             }
         }

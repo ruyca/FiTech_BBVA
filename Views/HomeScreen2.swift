@@ -5,9 +5,8 @@ struct HomeScreen2: View {
     var body: some View {
         
         NavigationStack {
-            
             GeometryReader { geo in
-                
+        
                 ZStack {
                     // Background
                     Image("MainBackground")
@@ -21,6 +20,7 @@ struct HomeScreen2: View {
                         
                         VStack {
                             
+                            // Top text and 2 images
                             HStack {
                                 Spacer().frame(width:150)
                                 Text("Hola, Ruy")
@@ -40,6 +40,7 @@ struct HomeScreen2: View {
                             }
                             .padding()
                             
+                            // Images with text
                             HStack(spacing:35) {
                                 VStack{
                                     Image("two-arrows")
@@ -112,7 +113,7 @@ struct HomeScreen2: View {
                                         
                                         NavigationLink(destination: CuentaView()){
                                             HStack(spacing:135){
-                                                Text("000ABCD1382")
+                                                Text("000ABCD1234")
                                                     .font(.custom("Helvetica Neue", size:15))
                                                     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                                                     .bold()
