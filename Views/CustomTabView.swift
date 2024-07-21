@@ -10,7 +10,7 @@ import SwiftUI
 enum Tab: String, CaseIterable{
     case house
     case heart
-    case plus
+    case plus = "plus.circle"
     case tray
     case person
 }
@@ -43,7 +43,7 @@ struct CustomTabView: View {
             }
             .frame(width: 400, height:60)
             .background(.white)
-            .cornerRadius(10)
+            .shadow(radius: 3, x:0, y:-2)
             
         }
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

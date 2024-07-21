@@ -23,6 +23,7 @@ struct HelpView: View {
                 
                 Rectangle()
                     .frame(width: 300, height: 200)
+                    .foregroundColor(.black)
                 
                 Text("AYUDA")
                     .font(.custom("Helvetica", size: 30))

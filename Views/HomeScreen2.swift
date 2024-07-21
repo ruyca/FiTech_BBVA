@@ -1,12 +1,6 @@
 import SwiftUI
 
-struct HomeScreen: View {
-    
-    @State private var selectedTab: Tab = .house
-    
-    init(){
-        UITabBar.appearance().isHidden = true
-    }
+struct HomeScreen2: View {
     
     var body: some View {
         
@@ -252,28 +246,6 @@ struct HomeScreen: View {
                     // end of Scroll View
                     }
                     
-                    VStack{
-                        TabView(selection: $selectedTab){
-                            if selectedTab == .house{
-                                HomeScreen2()
-                            } else if selectedTab == .heart{
-                                HealthView()
-                            } else if selectedTab == .plus{
-                                OportunitiesView()
-                            } else if selectedTab == .tray{
-                                NotificationView()
-                            } else if selectedTab == .person{
-                                HelpView()
-                            }
-                        }
-                    }
-                    
-                    VStack{
-                        Spacer()
-                        CustomTabView(selectedTab: $selectedTab)
-                    }
-                    .frame(maxHeight:.infinity)
-                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
 
                 }
             }
@@ -287,5 +259,5 @@ struct HomeScreen: View {
 }
 
 #Preview {
-    HomeScreen()
+    HomeScreen2()
 }

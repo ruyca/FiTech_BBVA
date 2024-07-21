@@ -23,8 +23,9 @@ struct OportunitiesView: View {
                 
                 Rectangle()
                     .frame(width: 300, height: 200)
+                    .foregroundColor(.black)
                 
-                Text("Oportunidades")
+                Text("OPORTUNIDADES")
                     .font(.custom("Helvetica", size: 30))
                     .foregroundColor(.white)
                     .bold()

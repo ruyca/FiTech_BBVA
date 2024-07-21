@@ -25,8 +25,9 @@ struct HealthView: View {
                 
                 Rectangle()
                     .frame(width: 300, height: 200)
+                    .foregroundColor(.black)
                 
-                Text("Parte de ana")
+                Text("PARTE ANA")
                     .font(.custom("Helvetica", size: 30))
                     .foregroundColor(.white)
                     .bold()

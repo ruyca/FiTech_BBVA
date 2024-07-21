@@ -25,6 +25,7 @@ struct NotificationView: View {
                 
                 Rectangle()
                     .frame(width: 300, height: 200)
+                    .foregroundColor(.black)
                 
                 Text("NOTIFICACIONES")
                     .font(.custom("Helvetica", size: 30))

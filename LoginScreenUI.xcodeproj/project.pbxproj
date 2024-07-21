@@ -24,6 +24,7 @@
 		63AF52BB2C4C2916006DB245 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BA2C4C2916006DB245 /* NotificationView.swift */; };
 		63AF52BD2C4C2953006DB245 /* OportunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BC2C4C2953006DB245 /* OportunitiesView.swift */; };
 		63AF52BF2C4C2961006DB245 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BE2C4C2961006DB245 /* HelpView.swift */; };
+		63AF52C12C4C523C006DB245 /* HomeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52C02C4C523C006DB245 /* HomeScreen2.swift */; };
 		63CF29862C48DB4300815234 /* CuentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF29852C48DB4300815234 /* CuentaView.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		63AF52BA2C4C2916006DB245 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		63AF52BC2C4C2953006DB245 /* OportunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OportunitiesView.swift; sourceTree = "<group>"; };
 		63AF52BE2C4C2961006DB245 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		63AF52C02C4C523C006DB245 /* HomeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen2.swift; sourceTree = "<group>"; };
 		63CF29852C48DB4300815234 /* CuentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +166,7 @@
 				635B35EE2C40B25900C7F060 /* ThirdView.swift */,
 				635B35F02C40C5D000C7F060 /* HomeScreen.swift */,
 				63CF29852C48DB4300815234 /* CuentaView.swift */,
+				63AF52C02C4C523C006DB245 /* HomeScreen2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				63AF52BB2C4C2916006DB245 /* NotificationView.swift in Sources */,
 				630707062C3B65AC0011980B /* FirstView.swift in Sources */,
 				630707042C3B4EEC0011980B /* CustomColors.swift in Sources */,
+				63AF52C12C4C523C006DB245 /* HomeScreen2.swift in Sources */,
 				635B35EF2C40B25900C7F060 /* ThirdView.swift in Sources */,
 				63AF52B72C4C28E9006DB245 /* CustomTabView.swift in Sources */,
 				63CF29862C48DB4300815234 /* CuentaView.swift in Sources */,
