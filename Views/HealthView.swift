@@ -15,7 +15,7 @@ struct HealthView: View {
         GeometryReader { geo in
             ZStack{
                 // Background
-                Image("MainBackground")
+                Image("bg_05")
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)

@@ -15,13 +15,13 @@ struct NotificationView: View {
         GeometryReader { geo in
             ZStack{
                 // Background
-                Image("MainBackground")
+                Image("bg_05")
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                     .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
                     .opacity(1.0)
-                // end of background
+                                // end of background
                 
                 Rectangle()
                     .frame(width: 300, height: 200)

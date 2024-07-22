@@ -25,6 +25,16 @@
 		63AF52BD2C4C2953006DB245 /* OportunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BC2C4C2953006DB245 /* OportunitiesView.swift */; };
 		63AF52BF2C4C2961006DB245 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52BE2C4C2961006DB245 /* HelpView.swift */; };
 		63AF52C12C4C523C006DB245 /* HomeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52C02C4C523C006DB245 /* HomeScreen2.swift */; };
+		63AF52C72C4E170A006DB245 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 63AF52C62C4E170A006DB245 /* FocusEntity */; };
+		63AF52C92C4E1854006DB245 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52C82C4E1854006DB245 /* ContentView2.swift */; };
+		63AF52CF2C4E1871006DB245 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52CA2C4E1871006DB245 /* CustomNavBarView.swift */; };
+		63AF52D02C4E1871006DB245 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52CB2C4E1871006DB245 /* CustomNavView.swift */; };
+		63AF52D12C4E1871006DB245 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52CC2C4E1871006DB245 /* CustomNavBarContainerView.swift */; };
+		63AF52D32C4E1871006DB245 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52CE2C4E1871006DB245 /* CustomNavLink.swift */; };
+		63AF52D92C4E1929006DB245 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52D52C4E1929006DB245 /* Model.swift */; };
+		63AF52DA2C4E1929006DB245 /* PlacementButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52D62C4E1929006DB245 /* PlacementButtonView.swift */; };
+		63AF52DB2C4E1929006DB245 /* ModelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF52D72C4E1929006DB245 /* ModelPickerView.swift */; };
+		63AF52DC2C4E1929006DB245 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 63AF52D82C4E1929006DB245 /* Models */; };
 		63CF29862C48DB4300815234 /* CuentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF29852C48DB4300815234 /* CuentaView.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +77,15 @@
 		63AF52BC2C4C2953006DB245 /* OportunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OportunitiesView.swift; sourceTree = "<group>"; };
 		63AF52BE2C4C2961006DB245 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		63AF52C02C4C523C006DB245 /* HomeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen2.swift; sourceTree = "<group>"; };
+		63AF52C82C4E1854006DB245 /* ContentView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		63AF52CA2C4E1871006DB245 /* CustomNavBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		63AF52CB2C4E1871006DB245 /* CustomNavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		63AF52CC2C4E1871006DB245 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		63AF52CE2C4E1871006DB245 /* CustomNavLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		63AF52D52C4E1929006DB245 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		63AF52D62C4E1929006DB245 /* PlacementButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementButtonView.swift; sourceTree = "<group>"; };
+		63AF52D72C4E1929006DB245 /* ModelPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPickerView.swift; sourceTree = "<group>"; };
+		63AF52D82C4E1929006DB245 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 		63CF29852C48DB4300815234 /* CuentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AF52C72C4E170A006DB245 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +118,12 @@
 		630706CD2C3B4AE10011980B = {
 			isa = PBXGroup;
 			children = (
+				63AF52D52C4E1929006DB245 /* Model.swift */,
+				63AF52D72C4E1929006DB245 /* ModelPickerView.swift */,
+				63AF52D82C4E1929006DB245 /* Models */,
+				63AF52D62C4E1929006DB245 /* PlacementButtonView.swift */,
+				63AF52D42C4E18B8006DB245 /* CustomBar */,
+				63AF52C82C4E1854006DB245 /* ContentView2.swift */,
 				630707032C3B4EEC0011980B /* CustomColors.swift */,
 				630707092C3B671F0011980B /* Views */,
 				630706D82C3B4AE10011980B /* LoginScreenUI */,
@@ -171,6 +197,17 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		63AF52D42C4E18B8006DB245 /* CustomBar */ = {
+			isa = PBXGroup;
+			children = (
+				63AF52CC2C4E1871006DB245 /* CustomNavBarContainerView.swift */,
+				63AF52CA2C4E1871006DB245 /* CustomNavBarView.swift */,
+				63AF52CE2C4E1871006DB245 /* CustomNavLink.swift */,
+				63AF52CB2C4E1871006DB245 /* CustomNavView.swift */,
+			);
+			path = CustomBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +224,9 @@
 			dependencies = (
 			);
 			name = LoginScreenUI;
+			packageProductDependencies = (
+				63AF52C62C4E170A006DB245 /* FocusEntity */,
+			);
 			productName = LoginScreenUI;
 			productReference = 630706D62C3B4AE10011980B /* LoginScreenUI.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +299,9 @@
 				Base,
 			);
 			mainGroup = 630706CD2C3B4AE10011980B;
+			packageReferences = (
+				63AF52C52C4E170A006DB245 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 630706D72C3B4AE10011980B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AF52DC2C4E1929006DB245 /* Models in Resources */,
 				630706E12C3B4AE20011980B /* Preview Assets.xcassets in Resources */,
 				630706DE2C3B4AE20011980B /* Assets.xcassets in Resources */,
 			);
@@ -301,17 +345,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AF52D92C4E1929006DB245 /* Model.swift in Sources */,
 				630706DC2C3B4AE10011980B /* ContentView.swift in Sources */,
+				63AF52CF2C4E1871006DB245 /* CustomNavBarView.swift in Sources */,
 				63AF52BF2C4C2961006DB245 /* HelpView.swift in Sources */,
 				630707082C3B669F0011980B /* SecondView.swift in Sources */,
+				63AF52D32C4E1871006DB245 /* CustomNavLink.swift in Sources */,
+				63AF52DA2C4E1929006DB245 /* PlacementButtonView.swift in Sources */,
+				63AF52DB2C4E1929006DB245 /* ModelPickerView.swift in Sources */,
 				635B35F12C40C5D000C7F060 /* HomeScreen.swift in Sources */,
+				63AF52D12C4E1871006DB245 /* CustomNavBarContainerView.swift in Sources */,
 				63AF52BB2C4C2916006DB245 /* NotificationView.swift in Sources */,
+				63AF52D02C4E1871006DB245 /* CustomNavView.swift in Sources */,
 				630707062C3B65AC0011980B /* FirstView.swift in Sources */,
 				630707042C3B4EEC0011980B /* CustomColors.swift in Sources */,
 				63AF52C12C4C523C006DB245 /* HomeScreen2.swift in Sources */,
 				635B35EF2C40B25900C7F060 /* ThirdView.swift in Sources */,
 				63AF52B72C4C28E9006DB245 /* CustomTabView.swift in Sources */,
 				63CF29862C48DB4300815234 /* CuentaView.swift in Sources */,
+				63AF52C92C4E1854006DB245 /* ContentView2.swift in Sources */,
 				63AF52BD2C4C2953006DB245 /* OportunitiesView.swift in Sources */,
 				63AF52B92C4C28FE006DB245 /* HealthView.swift in Sources */,
 				630706DA2C3B4AE10011980B /* LoginScreenUIApp.swift in Sources */,
@@ -642,6 +694,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63AF52C52C4E170A006DB245 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63AF52C62C4E170A006DB245 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63AF52C52C4E170A006DB245 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 630706CE2C3B4AE10011980B /* Project object */;
 }
